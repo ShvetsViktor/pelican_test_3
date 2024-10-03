@@ -3,6 +3,15 @@ SITENAME = 'Rainbow Me Deco'
 SITEURL = "https://shvetsviktor.github.io/pelican_test_3"
 
 PATH = "content"
+PAGE_PATHS = ['pages']
+
+STATIC_PATHS = ['extra']
+EXTRA_PATH_METADATA = {
+    'extra/index.html': {'path': 'index.html'},
+}
+
+# Настройка для отображения страниц в меню
+DISPLAY_PAGES_ON_MENU = True
 
 TIMEZONE = 'Europe/Rome'
 
